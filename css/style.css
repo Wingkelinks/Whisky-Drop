@@ -1,0 +1,208 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* .container-wrapper{} */
+
+.container-wrapper-red{
+    background-color: #ff7a07d4;
+    color: white;
+}
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;;
+    color: rgb(20 76 85);
+    background-color: #f9bc08;
+    border-color: #f9bc08;
+    text-align: center;
+}
+
+.callout-container{ 
+    height: 100vh;
+
+    background: url(/images/mathew-schwartz-jdxCzIltbBE-unsplash\ \(1\).jpg) no-repeat bottom left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* .quotes-container{}
+
+.features-container{} */
+
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+    color: #212529;
+}
+
+.feature .btn{
+    background-color: #17a2b8;;
+    border-color: #17a2b8;;
+    text-transform: uppercase;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    color: #93e7f4;
+}
+
+/* .monthly-favourites-container{} */
+
+/* Page headers */
+
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+
+}
+
+.page-header h2{
+    margin-top: 0;
+}
+
+
+
+/* Block dividers */
+
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color:#444;
+    ;
+    margin-bottom: 50px;
+}
+
+.block-diver-orange{
+    background-color: #ff7a07d4;
+}
+
+.block-divider-white{
+    background-color: white;
+}
+
+.block-divider-short{
+    width: 35px;
+}
+
+/* Content Containers */
+
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Navbar styling */
+
+.navalert-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar{
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(66, 65, 64, 0.25);
+}
+
+.navbar .navbar-toggler{
+    border: 0;
+}
+
+.navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 1.5rem;;
+}
+
+.navbar .navbar-nav a{
+ font-weight: bold;
+}
+
+/* Jumbotron */
+
+/* Over-riding bootstrap default jumbotron style */
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color: #fffdfb;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color: #acccd6;
+}
+
+.jumbotron .lead {
+    color:#acccd6;
+    margin: 20px;
+}
+
+.jumbotron mark{
+    background-color: #93e7f4;
+}
+/* Buttons */
+
+.btn-cta{
+    font-weight: bold;
+    border-radius: 15px;
+    width: 160px;
+}
+
+.btn-red{
+    color: white;
+    background-color: #ff7a07d4;
+    border-color: #ff7a07d4;
+}
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus,
+.btn-red:active:focus{
+    color: white;
+    background-color: #2cc1d9;
+    border-color: #2cc1d9;
+    opacity: 0.9;
+}
+
+
